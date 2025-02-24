@@ -5,6 +5,7 @@ import axios from "axios";
 import { FaSpinner } from "react-icons/fa";
 import { useContext, useState } from "react";
 import { UserContext } from "../UserContext/UserContext";
+import bg from "../../../public/registerimge.jpg";
 
 export default function Login() {
   const { setToken } = useContext(UserContext);
@@ -55,7 +56,7 @@ export default function Login() {
   return (
     <div
       className="h-full w-full min-h-screen flex items-center justify-center bg-cover bg-center -mt-16  p-6"
-      style={{ backgroundImage: "url('/registerimge.jpg')" }}
+      style={{ backgroundImage: `url(${bg})` }}
     >
       <div
         className="max-w-md w-full p-6 shadow-lg text-gray-300 bg-opacity-90 rounded-lg"

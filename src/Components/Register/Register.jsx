@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-
+import bg from "../../../public/registerimge.jpg";
 
 import { FaSpinner } from "react-icons/fa";
 import { UserContext } from "../UserContext/UserContext";
@@ -71,7 +71,7 @@ const{setToken}= useContext(UserContext)
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center -mt-16 p-6"
-      style={{ backgroundImage: "url('/registerimge.jpg')" }}
+      style={{ backgroundImage:`url(${bg})`}}
     >
       <div
         className="max-w-md w-full p-6 shadow-lg text-gray-300 bg-opacity-90 rounded-lg"
