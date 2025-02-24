@@ -1,0 +1,46 @@
+body{
+  font-family:cursive;
+  
+
+
+
+ font-weight:400; 
+
+font-size:18px ;
+
+line-height: 18px;
+
+  /* background-image:url(wraper.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover; */
+
+
+
+}
+.bg-navpar{
+  background-color:#042727 !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.page-item {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+a.active {
+   /* background-color: blue;  */
+  /* color: white;  */
+  border-radius: 5px;
+}
+
+.previous-item, .next-item {
+  margin: 0 10px;
+}
